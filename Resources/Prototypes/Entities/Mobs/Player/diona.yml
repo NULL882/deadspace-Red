@@ -5,7 +5,7 @@
   id: MobDiona
   components:
     - type: CombatMode
-      combatToggleAction: # Corvax - Diona pacifist
+      combatToggleAction: # Deadspace - Diona pacifist
         enabled: false
         autoPopulate: false
         name: action-name-combat
@@ -36,4 +36,4 @@
     - type: Faction
       factions:
         - NanoTrasen
-    - type: Pacified # Corvax - Diona pacifist
+    - type: Pacified # Deadspace - Diona pacifist
