@@ -19,6 +19,6 @@
     shoes: ClothingShoesLeather
     id: PsychologistPDA
     ears: ClothingHeadsetMedical
-  innerclothingskirt: ClothingUniformJumpskirtPsychologist # Corvax
+  innerclothingskirt: ClothingUniformJumpskirtPsychologist # Deadspace
   satchel: ClothingBackpackSatchelMedicalFilled
   duffelbag: ClothingBackpackDuffelMedicalFilled
