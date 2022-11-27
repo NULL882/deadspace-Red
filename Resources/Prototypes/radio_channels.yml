@@ -67,3 +67,10 @@
   keycode: 'т'
   frequency: 1213
   color: "#8f4a4b"
+
+- type: radioChannel
+  id: Pirate
+  name: chat-radio-pirate
+  keycode: 'ш'
+  frequency: 1223
+  color: "#834D18"
