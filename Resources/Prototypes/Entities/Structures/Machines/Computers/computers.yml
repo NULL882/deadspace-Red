@@ -770,3 +770,16 @@
             - TabletopMachineMask
           layer:
             - TabletopMachineLayer
+
+- type: entity
+  parent: BaseComputer
+  id: ComputerUploadAI
+  name: Загрузочная консоль
+  description: Используйте что бы 
+  components:
+  - type: Appearance
+    visuals:
+    - type: ComputerVisualizer
+      key: atmos_key
+      screen: "aiupload"
+  - type: Sprite

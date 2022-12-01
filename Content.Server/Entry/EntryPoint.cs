@@ -5,6 +5,7 @@ using Content.Server.Administration.Managers;
 using Content.Server.Afk;
 using Content.Server.Chat.Managers;
 using Content.Server.Connection;
+using Content.Server.Corvax.JoinPlayTime;
 using Content.Server.Corvax.JoinQueue;
 using Content.Server.Corvax.Sponsors;
 using Content.Server.Database;
@@ -98,8 +99,9 @@ namespace Content.Server.Entry
                 IoCManager.Resolve<IGamePrototypeLoadManager>().Initialize();
                 IoCManager.Resolve<NetworkResourceManager>().Initialize();
                 IoCManager.Resolve<GhostKickManager>().Initialize();
-                IoCManager.Resolve<ServerSponsorsManager>().Initialize(); // Corvax-Sponsors
-                IoCManager.Resolve<JoinQueueManager>().Initialize(); // Corvax-Sponsors
+                IoCManager.Resolve<SponsorsManager>().Initialize(); // Corvax-Sponsors
+                IoCManager.Resolve<JoinQueueManager>().Initialize(); // Corvax-Queue
+                IoCManager.Resolve<JoinPlayTimeManager>().Initialize(); // Corvax-JoinPlaytime
 
                 _voteManager.Initialize();
                 _updateManager.Initialize();
